@@ -1,10 +1,55 @@
-fatal: pathspec 'frontend/node_modules' did not match any files
-On branch main
-Your branch is up to date with 'origin/main'.
+# =====================
+# Node.js / React Ignore
+# =====================
+node_modules/
+build/
+.env
+.DS_Store
+*.log
+npm-debug.log*
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)       
-        backend/
-        frontend/
+# =====================
+# Python / FastAPI Ignore
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+venv/
+.env
+*.sqlite3
+*.db
+*.json
+data.json
 
-nothing added to commit but untracked files present (use "git add" to track)
+# =====================
+# VS Code & System files
+# =====================
+.vscode/
+*.swp
+Thumbs.db
+ehthumbs.db
+.idea/
+*.bak
+
+# =====================
+# OS-specific
+# =====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =====================
+# Git
+# =====================
+*.orig
+*.lock
